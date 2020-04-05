@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
 }
 
 /* sum: sum two integral numbers. */
-int sum( int x, int y)
+int sum(int x, int y)
 {
     return x + y;
 }
