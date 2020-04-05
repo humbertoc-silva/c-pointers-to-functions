@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 {
 
     /* operations is an array of pointers to functions that receive two integers and return an integer */
-    int (*operations[4])(int, int) = { &sum, &sub, &mul, &div };
+    int (*operations[4])(int, int) = { sum, sub, mul, div };
 
     for (int i = 0; i < 4; i++) {
         /* the result will change according to the operation used by calc function */
